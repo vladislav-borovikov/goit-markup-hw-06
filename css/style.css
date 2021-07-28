@@ -650,6 +650,7 @@ margin-bottom: 50px;
     border-radius: 4px;
     padding-left: 16px;
     margin-top: 20px;
+    color: #FFFFFF;
 }
 
 .button-subscription{
@@ -670,6 +671,7 @@ margin-bottom: 50px;
     padding-bottom: 10px;
     padding-left: 28px;
     padding-right: 28px;
+    border: none;
 
 
 }
@@ -878,9 +880,15 @@ margin-bottom: 50px;
     padding: 0%;
 }
 
+
+
 .close-botton{
     width: 18px;
     height: 18px;
+}
+.close-botton:hover{
+    fill: var(--botton-collor);
+    
 }
 
 .is-hidden {
@@ -895,7 +903,7 @@ margin-bottom: 50px;
 }
 
 .modal-form-head{
-    font-weight: 700px;
+    font-weight: bold;
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
